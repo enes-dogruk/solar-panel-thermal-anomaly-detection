@@ -207,9 +207,4 @@ Script'ler sırayla (`01_scripts/` içinde) çalıştırılır; her biri bir
 
 ---
 
-<div align="center">
 
-*Bu projenin geliştirme sürecinde Anthropic'in Claude yapay zeka
-asistanından danışmanlık desteği alınmıştır.*
-
-</div>
