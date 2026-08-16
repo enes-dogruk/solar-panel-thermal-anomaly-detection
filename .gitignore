@@ -1,0 +1,47 @@
+# ============================================================
+# BUYUK VERI DOSYALARI - GitHub'a atilmaz (repo boyutu patlar)
+# ============================================================
+
+# Kaynak videolar (her biri ~5-10 MB, ama repo icin gereksiz)
+00_videos/*.mp4
+
+# Ham video kareleri (yuzlerce PNG)
+03_data/frames_video1/
+03_data/frames_video2/
+
+# Panel kirpimlari (17.000+ goruntu her klasorde)
+03_data/panel_crops_video1/
+03_data/panel_crops_video2/
+
+# Egitilmis model agirliklari (buyuk .pt dosyalari, ~45 MB)
+# NOT: confusion_matrix.png gibi kucuk ciktilar EXCLUDE edilmiyor,
+# sadece agir .pt dosyalari haric tutuluyor.
+05_models/**/*.pt
+
+# ONNX model dosyalari (opsiyonel - istersen bunlari da tutabilirsin,
+# ONNX dosyalari .pt kadar buyuk degil ama yine de MB seviyesinde)
+11_onnx/*.onnx
+
+# ============================================================
+# PYTHON STANDART
+# ============================================================
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# ============================================================
+# ISLETIM SISTEMI / EDITOR
+# ============================================================
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+
+# ============================================================
+# ESKI DENEME / ARSIV KLASORU (istege bagli - istersen kaldirip
+# arsivi de repoya dahil edebilirsin, ama genelde gereksizdir)
+# ============================================================
+arsiv/
